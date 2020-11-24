@@ -9,12 +9,12 @@ unsigned int transportujFlota(unsigned int towar)
     // Twoja implementacja tutaj
     
     
-    if (Towar ==0)
+    if (towar ==0)
     {
       return IloscZaglowcow;
     }
     Stocznia stocznia{};
-    while(IloscTowaru < Towar )
+    while(IloscTowaru < towar )
     {
     Statek* s1 = stocznia();  
     IloscTowaru += (s1->transportuj());
